@@ -400,7 +400,6 @@
   grid-column: 2;
   margin-top: 10px;
   margin-bottom: 25px; 
-
 }
 
 .main__section-third .section__content:nth-of-type(5) {
@@ -467,14 +466,13 @@
 .footer {
   margin: 60px 20px 20px;  
   min-height: 1024px;
-
 }
 
 }
 
 /*! ==== MEDIA-PC ==== */
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
 .header {
   display: flex;
