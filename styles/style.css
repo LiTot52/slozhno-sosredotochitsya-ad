@@ -399,7 +399,7 @@
 .main__section-third .section__content {
   grid-column: 2;
   margin-top: 10px;
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
 }
 
 .main__section-third .section__content:nth-of-type(5) {
@@ -464,8 +464,8 @@
 /*! ================================================== */
 
 .footer {
-  margin: 60px 20px 20px;  
-  min-height: 1024px;
+  margin: 60px 20px 20px;
+  min-height: 1024p
 }
 
 }
