@@ -1,30 +1,44 @@
-:root.theme-light {
-  --page-bg-color: #fff1f7;
-  --page-text-color: #353430;
-
-  --title-color: #ffc2e6;
-  --section-title-color: #353430;
-  --subtitle-color: #353430;
-  --subtitle-bg-color: #ff8dcb;
-
+.page.theme_light {
+  --title-color: #FFC2E6;
   --text-color: #353430;
-  --text-bold-color: #353430;
+  --sub-text-color: #353430;
+  --accent-color: #ff8dcb;
+  --btn-color:#353430;
+  --backgroung-image: url(../images/cover-image-light.png);
+}
 
-  --link-color: #353430;
-  --link-hover-color: #353430;
-  --link-focus-color: #353430;
-  --link-shadow-color: #ff8dcb;
+.theme_light .decorative__element {
+  display: none;
+}
 
-  --accent-color: #353430;
-  --accent-text-color: #353430;
-  --decor-color: #353430;
-  --decor-hover-color: rgba(53, 52, 48, 0.4);
-  --border-color: #353430;
-  --decor-border: #353430;
+.theme_light .header__theme-menu-button:hover {
+  border: 1px solid rgba(50, 49, 45, 0.40);
+}
 
-  --shadow-color: #ff8dcb;
-  --bg-image: url(../images/cover-image-light.png);
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --sub-text-color: #353430;
+    --accent-color: #ff8dcb;
+    --btn-color:#353430;
+    --backgroung-image: url(../images/cover-image-light.png);
+  }
+  .decorative__element {
+    display: none;
+  }
+  
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.40);
+  }
+}  
 
-  /* REC скрыт в светлой теме */
-  --decor-display: none;
+
+@media (min-width: 1024px) {
+  .header__title {
+    text-shadow: 4px 4px 0 #FF0070;
+  }
+  .footer__title {
+    text-shadow: 4px 4px 0 #FF0070;
+  }
 }
